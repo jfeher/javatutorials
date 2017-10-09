@@ -21,15 +21,15 @@ public class ExceptionMagic {
 		//String s="abc";  
 		//int i=Integer.parseInt(s);
 		
-		//int a[]=new int[5];  
-		//a[10]=50;
+		//int array1[]=new int[5];  
+		//array1[10]=50;
 		
 		// Ahhoz, hogy elkaphassunk egy exception-t a kodreszletet ami potencialisan el fogja dobni egy try catch blockba kell tenni.
 		// A try blockba kerul az ami a dobja, a catchben pedig definialjuk, hogy milyen fajta Exception-t kapunk el, es azzal mit akarunk
 		// csinalni (Exception Handling)
 		
 		try {
-			int a=30/0;
+			int b=30/0;
 		} 
 		catch (Exception e) {
 			System.out.println("Catch blockban elkaptuk az exceptiont. Az uzenete: " + e.getMessage());
@@ -43,7 +43,7 @@ public class ExceptionMagic {
 		// Mast hasznalva pl NullpointerException-t nem lehet lekapni ezt a fejta exception-t. Kommenteld ki es nezd meg, hogy fut le.
 		
 		//try {
-		//	int a=30/0;
+		//	int c=30/0;
 		//} 
 		//catch (NullPointerException e) {
 		//	System.out.println("Catch blockban elkaptuk az exceptiont. Az uzenete: " + e.getMessage());
@@ -53,11 +53,11 @@ public class ExceptionMagic {
 		// Probald ki, hogy atirva a try blockot kulonbozo exceptionoket generalva mi lesz a kimenet
 		
 		try {
-			//int a = 30/0;
-			int b = 10/5;
+			//int d = 30/0;
+			int e = 10/5;
 			int[] array = new int[10];
-			array[10] = b;
-			//array[0] = b;
+			array[10] = e;
+			//array[0] = e;
 			
 		} 
 		catch (ArithmeticException e) {
