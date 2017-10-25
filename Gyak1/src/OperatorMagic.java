@@ -50,7 +50,7 @@ public class OperatorMagic {
 		System.out.println("a!=c: " + (a != c));
 		System.out.println("------------------------------------------------------------------");
 		
-		//boolean tipusban lehet a true es false erteket eltarolni, ezzel ternek vissza
+		//boolean tipusban lehet a true es false erteket eltarolni, ezzel ternek vissza az if es while felteteleben kiertekelt kifejezesek is
 		//booleanokra && es || vagy es ! not van definialva
 		//igazsag tablak az operatorokra: 0 (false) 1 (true) bemenetek eseten mi a kimenet
 		//
